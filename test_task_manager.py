@@ -4,7 +4,7 @@ from task_manager import add_task, tasks, complete_task, remove_task, list_tasks
 def test_add_task():
     tasks.clear()
     add_task("Learn Python")
-    assert len(tasks) == 1
+    assert len(tasks) == 999
     assert tasks[0]["title"] == "Learn Python"
     assert tasks[0]["completed"] is False
 
